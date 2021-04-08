@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Makos Company Task Website</title>
+<!-- Custom Theme files -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Florence Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+	Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //Custom Theme files -->
+<link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+<link href="css/style.css" type="text/css" rel="stylesheet" media="all">
+<!-- js -->
+<script src="js/jquery-1.11.1.min.js"></script> 
+<script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.js"></script>
+<!-- //js -->	
+</head>
+<body>
+	<!--header-->
+	<div class="top-nav">
+		<nav class="navbar navbar-default">
+			<div class="container">
+				<div class="navbar-header navbar-right">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<div class="clearfix"> </div>
+				</div>
+				<!--navigation-->
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav navbar-left cl-effect-5">
+						<li><a href="index.html"><span data-hover="Home">Home</span></a></li>
+						<li><a href="about.html"> <span data-hover="About">About </span> </a></li>
+						<li><a href="blog.html"><span data-hover="Blog">Blog</span></a></li>
+						<li><a href="gallery.html"><span data-hover="Gallery">Gallery</span></a></li>
+						<li><a href="form.html" class="active"><span data-hover="Form"> Form</span></a></li>
+					</ul>
+					<div class="clearfix"> </div>
+				</div>
+			</div>	
+		</nav>		
+	</div>	
+	<div class="contact">
+		<div class="container">
+			<div class="contact-main">
+				<h3 class="title">Form</h3>
+				<div class="contact-top">
+					<div class="col-md-8 contact-top-center">
+						<div class="contact-textarea">
+							<form id="frm">
+								<input type="text" minlength="3" maxlength="15" placeholder="Fast Name" required/>
+								<input type="text" placeholder="Last Name" required/>
+								<input type="number" minlength="10" maxlength="12" placeholder="Phone">
+								<input type="email" name="email" placeholder="Email" required/>
+								<input type="number" minlength="10" maxlength="12" placeholder="Whatsapp Number"  required/>
+								<input type="text" placeholder="Address" required/>
+								<input type="url"  placeholder="Social Link" required/>
+								<input type="url" placeholder="Website Link" required/><br><br>
+								<h3 class="title">Education Details</h3><br><br>
+
+								<input type="text" placeholder="Course" required/>
+								<input type="text" placeholder="Name of Institution">
+								<input type="text" placeholder="Grade/Score" required/>
+								<input type="text" placeholder="Passing">
+								<br><br>
+								<h3 class="title">Work Experience</h3><br><br>
+
+
+								<input type="text" placeholder="Designation" required/>
+								<input type="text" placeholder="Company Name"  required/>
+								<input type="date" placeholder="Start Date" required/>
+								<input type="date"  placeholder="End Date" required/>
+								<input type="text" placeholder="Job Description" required/>
+								<input type="text" placeholder="Related Documents" required/>
+								<div class="form-check">
+								<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" >
+								<label class="form-check-label" for="flexCheckDefault" >
+                                    Submit Details
+                                    </label>
+								</div>
+								<input type="submit" value="SUBMIT" >
+								<input type="reset" value="CLEAR" >
+							</form>
+						</div>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+    <script src="js/bootstrap.js"></script>
+	<script>
+		$("#frm").validate();
+	</script>
+</body>
+</html>
